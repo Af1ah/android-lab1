@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LabQuick">
         <activity
+            android:name=".Multiple"
+            android:exported="false" />
+        <activity
             android:name=".RadioCheck"
             android:exported="false" />
         <activity

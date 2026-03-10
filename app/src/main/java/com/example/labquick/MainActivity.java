@@ -18,11 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
         EditText ed = findViewById(R.id.editTextText);
         TextView tv = findViewById(R.id.textView2);
         findViewById(R.id.button).setOnClickListener(v->{
@@ -32,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         });
         findViewById(R.id.button2).setOnClickListener(v->
         {
-            Intent i = new Intent(this, MainActivity2.class);
+            Intent i = new Intent(this, Multiple.class);
             startActivity(i);
         });
         findViewById(R.id.button3).setOnClickListener(v -> {
