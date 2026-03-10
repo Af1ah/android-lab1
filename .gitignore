@@ -1,0 +1,70 @@
+
+# Android/IntelliJ/Studio
+*.iml
+.gradle/
+/local.properties
+.idea/
+.idea/*
+!/.idea/codeStyles
+!/.idea/runConfigurations
+!/.idea/vcs.xml
+!/.idea/inspectionProfiles
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Gradle
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Signing/keystore files
+*.jks
+*.keystore
+*.pem
+*.key
+*.crt
+*.der
+
+# Log/OS files
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.class
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Android Studio Navigation Editor temp files
+*.swn
+
+# Crashlytics/Fabric
+crashlytics-build.properties
+fabric.properties
+
+# Google Services (uncomment if using Firebase)
+# google-services.json
+# google-services.plist
+
+# Proguard
+proguard/
+
+# Misc
+.vscode/
+.env
+.history/
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Test outputs
+test-output/
+
+# JetBrains Rider
+.idea/.idea.Rider/
+.idea/.idea.Rider.*
